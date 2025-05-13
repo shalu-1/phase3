@@ -84,3 +84,23 @@ if __name__ == "__main__":
     user_id = 1
     print(f"Recommended movies for User {user_id}:")
     print(recommend_movies_for_user(user_id))
+#output
+MovieID,Title,Genres
+1,Toy Story (1995),Animation|Children's|Comedy
+2,Jumanji (1995),Adventure|Children's|Fantasy
+3,Grumpier Old Men (1995),Comedy|Romance
+4,Waiting to Exhale (1995),Comedy|Drama
+5,Father of the Bride Part II (1995),Comedy
+UserID,MovieID,Rating
+1,1,5
+1,2,3
+1,3,4
+2,2,5
+2,4,2
+3,1,4
+3,3,5
+3,5,3
+Movies similar to 'Toy Story (1995)':
+['Jumanji (1995)', 'Grumpier Old Men (1995)', 'Waiting to Exhale (1995)', 'Father of the Bride Part II (1995)']
+Recommended movies for User 1:
+['Jumanji (1995)', 'Waiting to Exhale (1995)', 'Father of the Bride Part II (1995)']
